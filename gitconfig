@@ -1,0 +1,42 @@
+[user]
+  name = Kylie Stradley
+  email = kylie.stradley@gmail.com
+[core]
+	editor = subl -n -w
+[diff]
+[color]
+  ui = auto
+  diff = auto
+  status = auto
+[push]
+  default = current
+[alias]
+  st = status -sb
+  ci = commit
+  co = checkout
+  cp = cherry-pick
+  di = diff
+  dc = diff --cached
+  dx = diff --no-prefix -U1000
+  amend = commit --amend
+  aa = add --all
+  ff = merge --ff-only
+  pullff = pull --ff-only
+  noff = merge --no-ff
+  fa = fetch --all
+  pom = push origin master
+  b = branch
+  dh1 = diff HEAD~1
+  ti = update-index --assume-unchanged
+  nti = update-index --no-assume-unchanged
+  pop = stash pop
+  head = !git l -1
+
+  # Logging
+  h = !git head
+  r = !git l -30
+  l = log --graph --abbrev-commit --pretty=oneline --decorate
+[github]
+  user = kyfast
+[credential]
+	helper = osxkeychain
