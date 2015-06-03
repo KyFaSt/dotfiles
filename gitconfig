@@ -2,7 +2,6 @@
   name = Kylie Stradley
   email = kylie.stradley@gmail.com
 [core]
-	editor = subl -n -w
 [diff]
 [color]
   ui = auto
@@ -40,3 +39,5 @@
   user = kyfast
 [credential]
 	helper = osxkeychain
+[core]
+	editor = /usr/bin/vim

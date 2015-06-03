@@ -30,10 +30,6 @@ function clean_branches {
   git branch | grep -v "\*"| grep -v "\master" |  xargs -n 1 git branch -d
 }
 
-alias rpush='rspec && git push'
-alias rpull='git pull && rspec'
-alias rrspec='be rake db:migrate && be rake db test:prepare && be rspec spec'
-
 # ANSI Colors
 RS="\[\033[0m\]"    # reset
 HC="\[\033[1m\]"    # hicolor
@@ -58,7 +54,7 @@ BWHT="\[\033[47m\]" # background white
 
 # Prompt
 PS1_HOST="\[\e[1;31m\]\u@\h\[\e[0m\]:"
-PS1_PROMPT="$ "
+PS1_PROMPT="$ 🐈  "
 if [ -z "${SSH_TTY-}" ]; then
     PS1_HOST=''
 fi
