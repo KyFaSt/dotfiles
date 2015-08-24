@@ -62,9 +62,6 @@ fi
 # parse and colorize terminal prompt 
 PS1="$FGRN$PS1_HOST\w $FYEL\$(parse_git_branch)$FRED$PS1_PROMPT$RS"
 
-export PATH=/usr/local/bin:$PATH
-export PATH=/usr/local/bin:$PATH
-
 # Trigger ~/.bashrc commands
 . ~/.bashrc
 
