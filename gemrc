@@ -1,2 +1,3 @@
 # don't install documentation for gems
+# testing gpg signing
 gem: --no-ri --no-rdoc
