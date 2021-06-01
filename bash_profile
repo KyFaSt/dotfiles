@@ -1,5 +1,6 @@
 
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+export BASH_SILENCE_DEPRECATION_WARNING=1
 
 ## Colors directories a color different than files
 # Set CLICOLOR if you want Ansi Colors in iTerm2 
