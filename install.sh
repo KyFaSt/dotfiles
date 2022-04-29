@@ -14,6 +14,5 @@ setup_homebrew() {
     fi
 }
 
-sudo apt install -y fish
 setup_homebrew
 brew bundle
