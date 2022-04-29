@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 setup_homebrew() {
     title "Setting up Homebrew"
 
