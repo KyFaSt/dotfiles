@@ -1,4 +1,9 @@
 #!/bin/sh
+
+set -euo pipefail
+
+cd "$(dirname "$0")"
+
 setup_homebrew() {
   echo "setting up homebrew"
 
@@ -9,5 +14,6 @@ setup_homebrew() {
     fi
 }
 
+sudo apt install -y fish
 setup_homebrew
 brew bundle
