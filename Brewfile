@@ -1,0 +1,1 @@
+brew "fish" # install shell

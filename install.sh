@@ -7,6 +7,8 @@ setup_homebrew() {
         # Run as a login shell (non-interactive) so that the script doesn't pause for user input
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     fi
+
+    brew bundle
 }
 
 setup_homebrew
